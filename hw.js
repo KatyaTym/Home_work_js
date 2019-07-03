@@ -5,6 +5,7 @@ function convert(USD) {
 
     return hryvnia;
 }
+convert(20);
 
 /* task 2 */
 function reverse(str) {
@@ -18,6 +19,7 @@ function printStairs(n) {
         console.log("#".repeat(i + 1));
     }
 }
+printStairs(3);
 
 /* task 4 */
 function sumRange(start, end) {
@@ -27,6 +29,7 @@ function sumRange(start, end) {
     }
     console.log(sum);
 }
+sumRange(2, 4);
 
 /* task 5 */
 function min(a, b, c) {
@@ -38,6 +41,7 @@ function min(a, b, c) {
         console.log(c);
     }
 }
+min(10, 5, 11);
 
 /* task 6 */
 function printPyramid(n) {
@@ -47,9 +51,11 @@ function printPyramid(n) {
         console.log(b + a);
     }
 }
+printPyramid(4);
 
 /* task 7 */
 function firstAndLastToUpper(str) {
 	return str.charAt(0).toUpperCase() + str.substr(1, str.length - 2) + str.slice(-1).toUpperCase();
 	
 }
+firstAndLastToUpper('abc');
